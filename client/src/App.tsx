@@ -1,11 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="p-4 bg-purple-600 text-white text-3xl">
-      Tailwind is working!
+    <div className="min-h-screen bg-gray-100 p-10">
+      {/* Tailwind CSS Test */}
+      <div className="p-6 bg-purple-600 text-white text-3xl rounded-lg shadow-lg mb-8">
+        ✅ Tailwind CSS is working!
+      </div>
+      
+   
     </div>
   );
 }
